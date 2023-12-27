@@ -4,7 +4,6 @@ import Projet1 from './component/Projet1';
 import Projet2 from './component/Projet2';
 import Projet3 from './component/Projet3';
 import Projet4 from './component/Projet4';
-import Myresume from './component/MyResume';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
