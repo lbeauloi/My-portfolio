@@ -4,8 +4,10 @@ import '/assets/css/ProjectsSection.css';
 
 const ProjectSection = () => {
     return (
-        <div className="projectSection" id='projects'>
-            
+        <>
+        <div className="projectSection" id='projects'> 
+            <h2>There is a selection of my latest projects</h2>
+            <div className='projectsContainer'>
             <Link to="/Projet 1">
                 <div className="project">projet 1</div>
             </Link>
@@ -21,8 +23,9 @@ const ProjectSection = () => {
             <Link to="/Projet 4">
                 <div className="project">projet 4</div>
             </Link>
-            
+            </div>
         </div>  
+        </>
     )
 }
 export default ProjectSection;

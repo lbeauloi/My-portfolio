@@ -1,1 +1,1 @@
-.project{width:400px;height:400px;background-color:red;margin:20px}.projectSection{margin:auto}/*# sourceMappingURL=ProjectsSection.min.css.map */
+.projectsContainer{margin:auto;padding-top:15%;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:20px}.project{width:300px;height:350px;background-color:red;display:flex;align-items:center;justify-content:center}/*# sourceMappingURL=ProjectsSection.min.css.map */

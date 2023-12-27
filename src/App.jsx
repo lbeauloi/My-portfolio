@@ -9,13 +9,14 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import ScrollToTop from './component/ScrollToTop';
 
+
 function App() {
 return (
   <>
  <Router>
   <Navbar/>
   <ScrollToTop/>
-  
+ 
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/projet 1" element={<Projet1 />} />

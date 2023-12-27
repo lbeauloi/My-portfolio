@@ -1,10 +1,18 @@
-.project {
-  width: 400px;
-  height: 400px;
-  background-color: red;
-  margin: 20px;
+.projectsContainer {
+  margin: auto;
+  padding-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.projectSection {
-  margin: auto;
+.project {
+  width: 300px;
+  height: 350px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=ProjectsSection.css.map */

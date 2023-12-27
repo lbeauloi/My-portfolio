@@ -4,6 +4,7 @@ const Projet3 = () => {
         <div className='projectdetails'>
             <h1>Projet 3</h1>
             <p>Projet 3</p>
+            <a href="#projects">Back to projects</a>
         </div>
     )
 }
