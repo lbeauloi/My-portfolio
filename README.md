@@ -3,7 +3,7 @@
 
 Here you can find a site where I group together my different projects. This portfolio is constantly evolving and new projects are being added. This is a draft version of my portfolio.
 
-[My portfolio](https://lbeauloi.github.io/My-portfolio/)
+[My portfolio](https://lucas-beauloi-portfolio.netlify.app/)
 ## Authors
 
 [@LucasBeauloi](https://github.com/lbeauloi) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-beauloi/)
