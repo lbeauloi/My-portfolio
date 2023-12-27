@@ -2,6 +2,9 @@
   background-color: #333;
   color: white;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-list {
@@ -17,5 +20,12 @@
   color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-item:hover {
+  text-decoration: none;
+}
+.navbar-item a {
+  color: inherit;
   text-decoration: none;
 }/*# sourceMappingURL=Navbar.css.map */

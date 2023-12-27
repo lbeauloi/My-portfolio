@@ -1,6 +1,7 @@
+import '/assets/css/Projet.css';
 const Projet2 = () => {
     return (
-        <div>
+        <div className='projectdetails'>
             <h1>Projet 2</h1>
             <p>Projet 2</p>
         </div>

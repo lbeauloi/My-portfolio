@@ -1,21 +1,34 @@
 .navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-  }
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   
-  .navbar-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-item {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  &:hover {
+      text-decoration: none;
   }
-  
-  .navbar-item {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+  a {
+      color: inherit; 
+      text-decoration: none; 
   }
+}
