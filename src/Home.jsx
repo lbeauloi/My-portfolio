@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 const Home = () => {
     return(
         <>
@@ -5,13 +7,17 @@ const Home = () => {
         <div>
           <h1>Home</h1>
         
-          <p>projet 1</p>
-          <p>projet 2</p>
-          <p>projet 3</p>
-          <p>projet 4</p>
+          <div>
+            <Link to = "/Projet 1">projet 1</Link>
+          </div> 
+
+         <div>
+            <Link to = "/Projet 2">projet 2</Link>
+         </div>
+          
 
         </div>
-          </>
+        </>
     )
 }
 export default Home;
