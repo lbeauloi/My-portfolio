@@ -3,8 +3,6 @@
   height: 100dvh;
   margin: auto;
   padding-top: 66px;
-  text-align: center;
-  color: white;
 }
 .Home h2 {
   font-size: 3rem;
@@ -19,5 +17,4 @@
 }
 .projectSection a {
   text-decoration: none;
-  color: white;
 }/*# sourceMappingURL=Home.css.map */
