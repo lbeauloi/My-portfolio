@@ -1,15 +1,21 @@
 .Home{
-    background-color: aqua;
+    background-color: #1F2833;
     height: 100dvh;
     margin: auto;
     padding-top: 66px;
+    text-align: center;
+    color: white;
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
 }
 
 .projectSection{
-    background-color: aquamarine;
+    background-color: gray;
     height: 100dvh;
-
-    
 
     a{
         text-decoration: none;

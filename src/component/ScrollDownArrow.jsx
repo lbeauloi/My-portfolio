@@ -5,7 +5,10 @@ const ScrollDownArrow = () => {
   const arrowRef = useRef(null);
 
   useEffect(() => {
-    gsap.fromTo(arrowRef.current, { y: -20 }, { y: 20, repeat: -1, yoyo: true, duration: 1 });
+    gsap.fromTo(arrowRef.current, { y: -20 }, { y: 20, 
+      repeat: -1, 
+      yoyo: true, 
+      duration: 1 });
   }, []);
 
   return (
