@@ -15,19 +15,19 @@
 }
 
 .projectImg1 {
-  background-image: url("./assets/img/theCollection.jpg");
+  background-image: url("/assets/img/theCollection.jpg");
 }
 
 .projectImg2 {
-  background-image: url("./assets/img/wheaterApp.jpg");
+  background-image: url("/assets/img/wheaterApp.jpg");
 }
 
 .projectImg3 {
-  background-image: url("./assets/img/Sunnyside.jpg");
+  background-image: url("/assets/img/Sunnyside.jpg");
 }
 
 .projectImg4 {
-  background-image: url("./assets/img/MovieBrowser.jpg");
+  background-image: url("/assets/img/MovieBrowser.jpg");
 }
 
 .projectdetails {
