@@ -1,4 +1,3 @@
-import { HashLink as Link } from 'react-router-hash-link';
 import '/assets/css/Projet.css';
 
 const Projet1 = () => {
@@ -10,7 +9,7 @@ const Projet1 = () => {
                 <h1>The Collection</h1>
                 <p>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>            
 
-                <Link to="/#projects" className='backArrow'>&#8592;</Link>
+                
                 <a href="https://lbeauloi.github.io/The-Collection/" target="_blank" className='projectLink'>See the project</a>
             </div>
         </div>

@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "image details";
-  padding-top: 66px;
   height: 100vh;
   background-color: gray;
 }

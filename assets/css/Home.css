@@ -1,8 +1,7 @@
 .Home {
   background-color: #0B0B0B;
-  height: 100dvh;
+  height: calc(100vh - 56px);
   margin: auto;
-  padding-top: 66px;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr;
@@ -54,10 +53,12 @@
   width: 68%;
 }
 
-.projectSection {
+.projectHoriz {
+  height: 100dvh;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+.projectHoriz .projectSection {
   background-color: gray;
   height: 100dvh;
-}
-.projectSection a {
-  text-decoration: none;
 }/*# sourceMappingURL=Home.css.map */

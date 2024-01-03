@@ -1,4 +1,58 @@
 .contactContainer{
-    height: 100vh;
     background-color: #0B0B0B;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "line1"
+                         "line2"
+                         "line3"
+                         "line4";
+
+    .line1{
+        grid-area: line1;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        img{
+            text-align: center;
+        }
+    }
+    .line2{
+        grid-area: line2;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid #fff;
+        width: fit-content;
+        margin: auto;
+        padding: 20px 30px;
+        border-radius: 10px;
+    }
+    .line3{
+        grid-area: line3;
+        p{
+            font-size: 41px;
+        }
+        .btn1, .btn2{
+            text-decoration: none;
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    .line4{
+        grid-area: line4;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-weight: 300;
+        a{
+            text-decoration: none;
+        }
+        
+    }
 }
