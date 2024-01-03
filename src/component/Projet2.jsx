@@ -3,14 +3,23 @@ import '/assets/css/Projet.css';
 const Projet2 = () => {
     return (
         <>
-        <div className='projectContainer'>
-            <div className='projectImg projectImg2'></div>
+         <div className='projectContainer'>
+            <div className='projectImg projectImg2'>
+            </div>
+
             <div className='projectdetails'>
-                <h1>The Weather App</h1>
-                <p>This is a weather application made in JavaScript. I used an <a href="https://openweathermap.org/api" target='_blank'>API</a> to fetch the data</p>
+                <h2>Weather App</h2>
+                <p className='description'>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>
+                <div className='langageTag'>
+                    <p>html/css</p>
+                    <p>js</p>
+                    <p>dom</p>
+                    <p>responsive</p>
+                </div>
                 <a href="https://lbeauloi.github.io/Weather-app/" target="_blank" className='projectLink'>See the project</a>
             </div>
         </div>
+        
         </>
     )
 }

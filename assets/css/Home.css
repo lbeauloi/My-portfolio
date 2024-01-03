@@ -51,14 +51,4 @@
   justify-content: center;
   margin: auto;
   width: 68%;
-}
-
-.projectHoriz {
-  height: 100dvh;
-  box-sizing: border-box;
-  overflow-y: hidden;
-}
-.projectHoriz .projectSection {
-  background-color: gray;
-  height: 100dvh;
 }/*# sourceMappingURL=Home.css.map */

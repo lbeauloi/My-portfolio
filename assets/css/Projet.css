@@ -1,51 +1,83 @@
 .projectContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "image details";
+  grid-template-areas: "images details";
   height: 100vh;
-  background-color: gray;
+  background-color: white;
 }
-
-.projectImg {
-  grid-area: image;
+.projectContainer .projectImg {
+  grid-area: images;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
-
-.projectImg1 {
+.projectContainer .projectImg1 {
   background-image: url("/assets/img/theCollection.jpg");
 }
-
-.projectImg2 {
+.projectContainer .projectImg2 {
   background-image: url("/assets/img/wheaterApp.jpg");
 }
-
-.projectImg3 {
+.projectContainer .projectImg3 {
   background-image: url("/assets/img/Sunnyside.jpg");
 }
-
-.projectImg4 {
+.projectContainer .projectImg4 {
   background-image: url("/assets/img/MovieBrowser.jpg");
 }
-
-.projectdetails {
-  position: relative;
-  margin: 0 0 0 50px;
+.projectContainer .projectdetails {
   grid-area: details;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "line1" "line2" "line3" "line4";
+}
+.projectContainer .projectdetails h2 {
+  grid-area: line1;
+  color: black;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: end;
+  font-weight: 900;
+  font-size: 42px;
+  text-transform: uppercase;
 }
-.projectdetails .backArrow, .projectdetails .projectLink {
-  text-decoration: none;
+.projectContainer .projectdetails .description {
+  grid-area: line2;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 70%;
+  margin: 0px auto;
 }
-.projectdetails .backArrow {
-  position: absolute;
-  top: 20px;
-  left: -10px;
-  font-size: 2em;
+.projectContainer .projectdetails .langageTag {
+  grid-area: line3;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectContainer .projectdetails .langageTag p {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid gray;
   padding: 10px;
-  border: 1px solid white;
-  border-radius: 50%;
+}
+.projectContainer .projectdetails .projectLink {
+  grid-area: line4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  margin: auto;
 }/*# sourceMappingURL=Projet.css.map */
