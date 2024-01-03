@@ -6,7 +6,7 @@ import Projet3 from './component/Projet3';
 import Projet4 from './component/Projet4';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
-import Footer from './component/Footer';
+import Contact from './component/Contact';
 import ScrollToTop from './component/ScrollToTop';
 
 
@@ -26,7 +26,7 @@ return (
     </Routes>
   </Router>
 
-  <Footer/>
+  <Contact/>
   </>
 )
 }

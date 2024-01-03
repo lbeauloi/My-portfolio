@@ -13,7 +13,7 @@ const ScrollDownArrow = () => {
 
   return (
     <div ref={arrowRef} style={{ fontSize: '2em', display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-      &#8595;
+      scroll <br /> &#8595;
     </div>
   );
 }

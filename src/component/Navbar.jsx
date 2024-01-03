@@ -7,8 +7,9 @@ const Navbar = () => {
     <nav className='navbar'>
       <ul className='navbar-list'>
         <div className='left'>
-          <li className='navbar-item'><Link to="/">Home</Link></li>
-          <li className='navbar-item'><a href="#projects">My projects</a></li>
+          <li className='navbar-item'><Link to="/">About</Link></li>
+          <li className='navbar-item'><a href="#projects">Projects</a></li>
+          <li className='navbar-item'><a href="#contact">Contact</a></li>
         </div>
 
         <div className='right'>

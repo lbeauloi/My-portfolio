@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1F2833;
+  background-color: #0B0B0B;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  text-transform: uppercase;
 }
 .navbar .navbar-list .navbar-item {
   float: left;
