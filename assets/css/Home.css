@@ -51,4 +51,89 @@
   justify-content: center;
   margin: auto;
   width: 68%;
+}
+
+.projectHoriz .projectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "images details";
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.projectHoriz .projectContainer .projectImg {
+  grid-area: images;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.projectHoriz .projectContainer .projectImg1 {
+  background-image: url("/assets/img/theCollection.jpg");
+}
+.projectHoriz .projectContainer .projectImg2 {
+  background-image: url("/assets/img/wheaterApp.jpg");
+}
+.projectHoriz .projectContainer .projectImg3 {
+  background-image: url("/assets/img/Sunnyside.jpg");
+}
+.projectHoriz .projectContainer .projectImg4 {
+  background-image: url("/assets/img/MovieBrowser.jpg");
+}
+.projectHoriz .projectContainer .projectdetails {
+  grid-area: details;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "line1" "line2" "line3" "line4";
+}
+.projectHoriz .projectContainer .projectdetails h2 {
+  grid-area: line1;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-weight: 900;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.projectHoriz .projectContainer .projectdetails .description {
+  grid-area: line2;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 70%;
+  margin: 0px auto;
+}
+.projectHoriz .projectContainer .projectdetails .langageTag {
+  grid-area: line3;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectHoriz .projectContainer .projectdetails .langageTag p {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.projectHoriz .projectContainer .projectdetails .projectLink {
+  grid-area: line4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  margin: auto;
 }/*# sourceMappingURL=Home.css.map */
