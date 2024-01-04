@@ -16,7 +16,7 @@ const Home = () => {
 
         <section className="projectHoriz">
           <section className="Projet1" id="projects">
-            <div className='projectContainer'>
+            <div className='projectContainer' id="projects">
               <div className='projectImg projectImg1'>
               </div>
 
