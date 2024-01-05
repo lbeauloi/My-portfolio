@@ -1,6 +1,7 @@
 .Home{
+    overflow-x: hidden;
     background-color: #0B0B0B;
-    height: calc(100vh - 56px);
+    height: calc(100dvh - 56px);
     margin: auto;
     display: grid;
     gap: 10px;
@@ -59,97 +60,147 @@
 }
 
 
-.projectHoriz {
-    .projectContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-areas: "images details";
-        height: 100vh;
-        width: 100%;
-        background-color: white;
-        .projectImg {
-            grid-area: images;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-        }
-        .projectImg1 {
-            background-image: url("/assets/img/theCollection.jpg");
-        }
-        
-        .projectImg2 {
-            background-image: url("/assets/img/wheaterApp.jpg");
-        }
-        
-        .projectImg3 {
-            background-image: url("/assets/img/Sunnyside.jpg");
-        }
-        
-        .projectImg4 {
-            background-image: url("/assets/img/MovieBrowser.jpg");
-        }
-        .projectdetails {
-            grid-area: details;
-            display: grid;
-            gap: 10px;
-            grid-template-columns: 1fr;
-            grid-template-areas: "line1"
-                                   "line2"
-                                   "line3"
-                                   "line4";
-            h2{
-                grid-area: line1;
-                color: black;
-                display: flex;
-                justify-content: center;
-                align-items: end;
-                font-weight: 900;
-                font-size: 42px;
-                text-transform: uppercase;
-            }
-            .description{
-                grid-area: line2;
-                color: black;
-                display: flex;
-                justify-content: center;
-                align-items: end;
-                width: 70%;
-                margin: 0px auto;
-            }
-    
-            .langageTag{
-                grid-area: line3;
-                display: flex;
-                width: 50%;
-                margin: 0 auto;
-                justify-content: space-between;
-                align-items: center;
-                
-                p{
-                    color: black;
-                    text-transform: uppercase;
-                    font-weight: 700;
-                    border: 1px solid gray;
-                    padding: 10px;
-                }
-            }
-    
-            .projectLink{
-                grid-area: line4;
-                color: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-decoration: none;
-                border-radius: 10px;
-                background-color: black;
-                width: fit-content;
-                height: fit-content;
-                padding: 20px 30px;
-                text-transform: uppercase;
-                margin: auto;
-            }
-        }
+.pin-wrap {
+    height: 100vh;
+    width:400vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+      .project1{
+      width: 100vw;
+      height: 100vh;
+      background-color: blue;
     }
+    .project2{
+      width: 100vw;
+      height: 100vh;
+      background-color: red;
+    }
+    .project3{
+      width: 100vw;
+      height: 100vh;
+      background-color: orange;
+    }
+    .project4{
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+
+// HTML
+//   <div class="container">
+//     <section class=homecontact>
+//       <div>
+//         <p>home</p>
+//       </div>
+//     </section>
+
+//     <section class="sectionPin">
+//       <div class="pin-wrap">
+//         <div class="project1"><p>PROJET 1</p></div>
+//         <div class="project2"><p>PROJET 2</p></div>
+//         <div class="project3"><p>PROJET 3</p></div>
+//         <div class="project4"><p>PROJET 4</p></div>
+//        </div>
+//     </section>
     
-}
+//     <section class=homecontact>
+//       <p>contact</p>
+//     </section>
+//   </div>
+
+
+// CSS
+// .homecontact{
+//     background-color: green;
+//     height: 100vh;
+//     width:100vw;
+//   }
+//   .pin-wrap {
+//     height: 100vh;
+//     width:400vw;
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+//       .project1{
+//       width: 100vw;
+//       height: 100vh;
+//       background-color: blue;
+//     }
+//     .project2{
+//       width: 100vw;
+//       height: 100vh;
+//       background-color: red;
+//     }
+//     .project3{
+//       width: 100vw;
+//       height: 100vh;
+//       background-color: orange;
+//     }
+//     .project4{
+//       width: 100vw;
+//       height: 100vh;
+//     }
+//   }
+
+
+// JS
+// gsap.registerPlugin(ScrollTrigger);
+
+// const pageContainer = document.querySelector(".container");
+
+// /* SMOOTH SCROLL */
+// const scroller = new LocomotiveScroll({
+//   el: pageContainer,
+//   smooth: true
+// });
+
+// scroller.on("scroll", ScrollTrigger.update);
+
+// ScrollTrigger.scrollerProxy(pageContainer, {
+//   scrollTop(value) {
+//     return arguments.length
+//       ? scroller.scrollTo(value, 0, 0)
+//       : scroller.scroll.instance.scroll.y;
+//   },
+//   getBoundingClientRect() {
+//     return {
+//       left: 0,
+//       top: 0,
+//       width: window.innerWidth,
+//       height: window.innerHeight
+//     };
+//   },
+//   pinType: pageContainer.style.transform ? "transform" : "fixed"
+// });
+
+// ////////////////////////////////////
+// ////////////////////////////////////
+// window.addEventListener("load", function () {
+//   let pinBoxes = document.querySelectorAll(".pin-wrap > *");
+//   let pinWrap = document.querySelector(".pin-wrap");
+//   let pinWrapWidth = pinWrap.offsetWidth;
+//   let horizontalScrollLength = pinWrapWidth - window.innerWidth;
+
+//   // Pinning and horizontal scrolling
+
+//   gsap.to(".pin-wrap", {
+//     scrollTrigger: {
+//       scroller: pageContainer, //locomotive-scroll
+//       scrub: true,
+//       trigger: ".sectionPin",
+//       pin: true,
+//       // anticipatePin: 1,
+//       start: "top top",
+//       end: pinWrapWidth
+//     },
+//     x: -horizontalScrollLength,
+//     ease: "none"
+//   });
+
+//   ScrollTrigger.addEventListener("refresh", () => scroller.update()); //locomotive-scroll
+
+//   ScrollTrigger.refresh();
+// });
+

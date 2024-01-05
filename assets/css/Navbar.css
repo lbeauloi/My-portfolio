@@ -14,10 +14,11 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar .navbar-list .navbar-item:hover {
-  text-decoration: none;
-}
 .navbar .navbar-list .navbar-item a {
   color: inherit;
   text-decoration: none;
+}
+.navbar .navbar-list .navbar-item a svg {
+  transform: translateY(5px);
+  margin-right: 5px;
 }/*# sourceMappingURL=Navbar.css.map */

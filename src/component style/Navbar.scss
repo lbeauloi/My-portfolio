@@ -12,14 +12,13 @@
           float: left;
           padding: 14px 16px;
           text-decoration: none;
-        
-          &:hover {
-              text-decoration: none;
-          }
-        
           a {
               color: inherit; 
               text-decoration: none; 
+              svg{
+                transform: translateY(5px);
+                margin-right: 5px;
+              }
           }
 
       }
