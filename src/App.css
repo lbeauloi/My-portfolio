@@ -6,5 +6,17 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    
 }
+html {
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+  body {
+    overflow-y: visible;
+    position: relative;
+    overflow-x: hidden;
+  }
 

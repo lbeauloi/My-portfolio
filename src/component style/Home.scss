@@ -61,25 +61,33 @@
 
 
 
-.horizontal-scroll {
-  background: #1d1d1d;
-  overflow: hidden;
-}
+//scroll horizontal
 
-.horizontal-scroll__inner {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.horizontal-text {
-  color: white;
-  width: 100%;
+  
+.container {
+    width: 600vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.panel {
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
 }
-
+.red {
+  background: blue;
+}
+.red {
+  background: red;
+}
+.orange {
+  background: orange;
+}
+.purple {
+  background: purple;
+}
+.blue {
+  background-color: blue;
+}
 
 
