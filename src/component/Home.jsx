@@ -20,10 +20,10 @@ const Home = () => {
         scrollTrigger: {
           trigger: slider.current,
           pin: true,
-          scrub: 1,
-          snap: 1 / (panels.length - 1),
+          scrub: 0.01, //jouer sur la vityesse de scroll 
+          snap: 1 / (panels.length - 1), //snap = sauter d'une section à l'autre
           end: () => "+=" + slider.current.offsetWidth,
-          markers: true,
+          markers: false, // indicateur du style "end" "scroll start" "start" etc etc utile pour dev mais masquer pour le deployement final
         },
       });
     }, component);
@@ -31,11 +31,12 @@ const Home = () => {
   });
     return(
       <>
-        <BackToTop/>
+      <BackToTop/>
       <div className="App" ref={component}>
+        
         <section className="Home">
           <p className="line1" id="hello"><em>hello, i'm</em></p>
-          <img className="line2" id="LB" src="./assets/img/lucasbeauloi.svg"></img>
+          <h1 className="line2" id="LB"><img src="./assets/img/lucasbeauloi.svg"></img></h1>
           <p className="line3">a junior front-end developer</p>
           <p className="line4">Currently undergoing front-end training at BeCode, I am eager to apply my skills and actively seeking a challenging internship opportunity. Let's build something remarkable together!</p>
           <div className="line5"><ScrollDownArrow/></div>

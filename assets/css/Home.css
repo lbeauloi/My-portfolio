@@ -4,51 +4,44 @@
   height: calc(100dvh - 56px);
   margin: auto;
   display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr;
-  grid-template-areas: "line1" "line2" "line3" "line4" "line5";
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: repeat 6, 1fr;
 }
 .Home .line1 {
-  grid-area: line1;
+  grid-area: 2/2/2/3;
   display: flex;
   align-items: center;
   justify-content: left;
   font-size: 41px;
-  margin: auto;
-  width: 68%;
-  padding-top: 50px;
 }
 .Home .line2 {
-  grid-area: line2;
+  grid-area: 3/2/3/3;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: auto;
+  align-items: center;
 }
-.Home .line2 svg {
-  text-align: center;
+.Home .line2 img {
+  width: 100%;
 }
 .Home .line3 {
-  grid-area: line3;
+  grid-area: 4/2/4/3;
   display: flex;
   align-items: center;
   justify-content: right;
   font-size: 41px;
-  margin: auto;
-  width: 68%;
 }
 .Home .line4 {
-  grid-area: line4;
+  grid-area: 5/2/5/3;
+  width: 70%;
+  margin: auto;
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin: auto;
-  width: 50%;
 }
 .Home .line5 {
-  grid-area: line5;
+  grid-area: 6/2/6/3;
   display: flex;
-  align-items: center;
+  align-items: last baseline;
   justify-content: center;
   margin: auto;
   width: 68%;
@@ -60,13 +53,11 @@
   display: flex;
   flex-wrap: wrap;
 }
-
-.panel {
+.container .panel {
   width: 100vw;
   height: 100vh;
 }
-
-.projectContainer {
+.container .panel .projectContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "images details";
@@ -74,32 +65,32 @@
   width: 100%;
   background-color: white;
 }
-.projectContainer .projectImg {
+.container .panel .projectContainer .projectImg {
   grid-area: images;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
-.projectContainer .projectImg1 {
+.container .panel .projectContainer .projectImg1 {
   background-image: url("/assets/img/theCollection.jpg");
 }
-.projectContainer .projectImg2 {
+.container .panel .projectContainer .projectImg2 {
   background-image: url("/assets/img/wheaterApp.jpg");
 }
-.projectContainer .projectImg3 {
+.container .panel .projectContainer .projectImg3 {
   background-image: url("/assets/img/Sunnyside.jpg");
 }
-.projectContainer .projectImg4 {
+.container .panel .projectContainer .projectImg4 {
   background-image: url("/assets/img/MovieBrowser.jpg");
 }
-.projectContainer .projectdetails {
+.container .panel .projectContainer .projectdetails {
   grid-area: details;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr;
   grid-template-areas: "line1" "line2" "line3" "line4";
 }
-.projectContainer .projectdetails h2 {
+.container .panel .projectContainer .projectdetails h2 {
   grid-area: line1;
   color: black;
   display: flex;
@@ -109,7 +100,7 @@
   font-size: 42px;
   text-transform: uppercase;
 }
-.projectContainer .projectdetails .description {
+.container .panel .projectContainer .projectdetails .description {
   grid-area: line2;
   color: black;
   display: flex;
@@ -118,7 +109,7 @@
   width: 70%;
   margin: 0px auto;
 }
-.projectContainer .projectdetails .langageTag {
+.container .panel .projectContainer .projectdetails .langageTag {
   grid-area: line3;
   display: flex;
   width: 50%;
@@ -126,14 +117,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.projectContainer .projectdetails .langageTag p {
+.container .panel .projectContainer .projectdetails .langageTag p {
   color: black;
   text-transform: uppercase;
   font-weight: 700;
   border: 1px solid gray;
   padding: 10px;
 }
-.projectContainer .projectdetails .projectLink {
+.container .panel .projectContainer .projectdetails .projectLink {
   grid-area: line4;
   color: white;
   display: flex;
