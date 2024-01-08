@@ -35,7 +35,7 @@ const Home = () => {
       <div className="App" ref={component}>
         <section className="Home">
           <p className="line1" id="hello"><em>hello, i'm</em></p>
-          <img className="line2" id="LB" src="../assets/img/lucasbeauloi.svg"></img>
+          <img className="line2" id="LB" src="./assets/img/lucasbeauloi.svg"></img>
           <p className="line3">a junior front-end developer</p>
           <p className="line4">Currently undergoing front-end training at BeCode, I am eager to apply my skills and actively seeking a challenging internship opportunity. Let's build something remarkable together!</p>
           <div className="line5"><ScrollDownArrow/></div>
@@ -121,7 +121,7 @@ const Home = () => {
         </section>
 
         <section className='contactContainer'id='contact'>
-            <img className="line1" src="/assets/img/letsconnect.svg" alt="" />
+            <img className="line1" src="./assets/img/letsconnect.svg" alt="" />
             <a className='line2' href="">l.beauloi@gmail.com</a>
             <div className='line3'>
                 <p>Follow me here</p> <br />
