@@ -1,8 +1,6 @@
 import './App.css'
 import Home from './component/Home';
 import Navbar from './component/Navbar';
-import Contact from './component/Contact';
-
 
 
 
@@ -12,7 +10,6 @@ return (
   <>
   <Navbar/>
   <Home/>
-  <Contact/>
   </>
 )
 }

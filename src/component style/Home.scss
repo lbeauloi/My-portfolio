@@ -60,147 +60,26 @@
 }
 
 
-.pin-wrap {
-    height: 100vh;
-    width:400vw;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-      .project1{
-      width: 100vw;
-      height: 100vh;
-      background-color: blue;
-    }
-    .project2{
-      width: 100vw;
-      height: 100vh;
-      background-color: red;
-    }
-    .project3{
-      width: 100vw;
-      height: 100vh;
-      background-color: orange;
-    }
-    .project4{
-      width: 100vw;
-      height: 100vh;
-    }
-  }
+
+.horizontal-scroll {
+  background: #1d1d1d;
+  overflow: hidden;
+}
+
+.horizontal-scroll__inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.horizontal-text {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
 
 
-// HTML
-//   <div class="container">
-//     <section class=homecontact>
-//       <div>
-//         <p>home</p>
-//       </div>
-//     </section>
-
-//     <section class="sectionPin">
-//       <div class="pin-wrap">
-//         <div class="project1"><p>PROJET 1</p></div>
-//         <div class="project2"><p>PROJET 2</p></div>
-//         <div class="project3"><p>PROJET 3</p></div>
-//         <div class="project4"><p>PROJET 4</p></div>
-//        </div>
-//     </section>
-    
-//     <section class=homecontact>
-//       <p>contact</p>
-//     </section>
-//   </div>
-
-
-// CSS
-// .homecontact{
-//     background-color: green;
-//     height: 100vh;
-//     width:100vw;
-//   }
-//   .pin-wrap {
-//     height: 100vh;
-//     width:400vw;
-//     display: flex;
-//     justify-content: flex-start;
-//     align-items: center;
-//       .project1{
-//       width: 100vw;
-//       height: 100vh;
-//       background-color: blue;
-//     }
-//     .project2{
-//       width: 100vw;
-//       height: 100vh;
-//       background-color: red;
-//     }
-//     .project3{
-//       width: 100vw;
-//       height: 100vh;
-//       background-color: orange;
-//     }
-//     .project4{
-//       width: 100vw;
-//       height: 100vh;
-//     }
-//   }
-
-
-// JS
-// gsap.registerPlugin(ScrollTrigger);
-
-// const pageContainer = document.querySelector(".container");
-
-// /* SMOOTH SCROLL */
-// const scroller = new LocomotiveScroll({
-//   el: pageContainer,
-//   smooth: true
-// });
-
-// scroller.on("scroll", ScrollTrigger.update);
-
-// ScrollTrigger.scrollerProxy(pageContainer, {
-//   scrollTop(value) {
-//     return arguments.length
-//       ? scroller.scrollTo(value, 0, 0)
-//       : scroller.scroll.instance.scroll.y;
-//   },
-//   getBoundingClientRect() {
-//     return {
-//       left: 0,
-//       top: 0,
-//       width: window.innerWidth,
-//       height: window.innerHeight
-//     };
-//   },
-//   pinType: pageContainer.style.transform ? "transform" : "fixed"
-// });
-
-// ////////////////////////////////////
-// ////////////////////////////////////
-// window.addEventListener("load", function () {
-//   let pinBoxes = document.querySelectorAll(".pin-wrap > *");
-//   let pinWrap = document.querySelector(".pin-wrap");
-//   let pinWrapWidth = pinWrap.offsetWidth;
-//   let horizontalScrollLength = pinWrapWidth - window.innerWidth;
-
-//   // Pinning and horizontal scrolling
-
-//   gsap.to(".pin-wrap", {
-//     scrollTrigger: {
-//       scroller: pageContainer, //locomotive-scroll
-//       scrub: true,
-//       trigger: ".sectionPin",
-//       pin: true,
-//       // anticipatePin: 1,
-//       start: "top top",
-//       end: pinWrapWidth
-//     },
-//     x: -horizontalScrollLength,
-//     ease: "none"
-//   });
-
-//   ScrollTrigger.addEventListener("refresh", () => scroller.update()); //locomotive-scroll
-
-//   ScrollTrigger.refresh();
-// });
 
