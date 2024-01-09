@@ -34,21 +34,23 @@ const Home = () => {
   });
     return(
       <>
-      <BackToTop/>
+      
       <div className="App" ref={component}>
-        
-        <section className="Home">
+
+        <section className="Home"> {/* HOME */}
           <p className="line1" id="hello"><em>hello, i'm</em></p>
           <div className='line2'><img src={logoHome} alt="Lucas Beauloi" /></div>
           <p className="line3">a junior front-end developer</p>
           <p className="line4">Currently undergoing front-end training at BeCode, I am eager to apply my skills and actively seeking a challenging internship opportunity. Let's build something remarkable together!</p>
           <div className="line5"><ScrollDownArrow/></div>
         </section>    
+        
 
-        <section className="container" id='projects' ref={slider}>
+        <section className="container" id='projects' ref={slider}> {/* PROJETS */}
             <div class="panel">
               <div className='projectContainer'>
-                <div className='projectImg projectImg1'>
+                <div className='projectImg1'>
+                  <p className='numIndex'>01.</p>
                 </div>
 
                 <div className='projectdetails'>
@@ -61,13 +63,15 @@ const Home = () => {
                         <p>responsive</p>
                     </div>
                     <a href="https://lbeauloi.github.io/The-Collection/" target="_blank" className='projectLink'>See the project</a>
+                
                 </div>
               </div>
             </div>
             
             <div class="panel">
               <div className='projectContainer'>
-                <div className='projectImg projectImg2'>
+                <div className='projectImg2'>
+                  <p className='numIndex'>02.</p>
                 </div>
 
               <div className='projectdetails'>
@@ -80,13 +84,15 @@ const Home = () => {
                       <p>api</p>
                   </div>
                   <a href="https://lbeauloi.github.io/Weather-app/" target="_blank" className='projectLink'>See the project</a>
+                
               </div>
             </div>
             </div>
             
             <div class="panel">
               <div className='projectContainer'>
-                  <div className='projectImg projectImg3'>
+                  <div className='projectImg3'>
+                    <p className='numIndex'>03.</p>
                   </div>
 
                   <div className='projectdetails'>
@@ -97,18 +103,20 @@ const Home = () => {
                           <p>pixel perfect</p>
                       </div>
                       <a href="https://lbeauloi.github.io/Sunnyside/" target="_blank" className='projectLink'>See the project</a>
+                    
                   </div>
                 </div>
             </div>
             
             <div class="panel">
               <div className='projectContainer'>
-                  <div className='projectImg projectImg4'>
+                  <div className='projectImg4'>
+                    <p className='numIndex'>04.</p>
                   </div>
 
                   <div className='projectdetails'>
                       <h2>Movie Browser</h2>
-                      <p className='description'>This was my first React project, and the first time using of Netlify for the final build. This is a clone of a streaming site. Leveraging the power of React, I implemented features such as React Router DOM for seamless navigation. To populate the site with content, I utilized an API to fetch data, including details like titles, genres, and release years. The project also involved the use of HTML and SCSS to structure and style the application. This venture into React showcases my progression in utilizing this powerful library to build dynamic and interactive web applications."</p>
+                      <p className='description'>This was my first React project, and the first time using of Netlify for the final build. This is a clone of a streaming site. Leveraging the power of React, I implemented features such as React Router DOM for seamless navigation. To populate the site with content, I utilized an API to fetch data, including details like titles, genres, and release years. The project also involved the use of HTML and SCSS to structure and style the application. This venture into React showcases my progression in utilizing this powerful library to build dynamic and interactive web applications.</p>
                       <div className='langageTag'>
                           <p>html/scss</p>
                           <p>react</p>
@@ -116,13 +124,14 @@ const Home = () => {
                           <p>netlify</p>
                       </div>
                       <a href="https://github.com/lbeauloi/Movie-Browser" target="_blank" className='projectLink'>See the project</a>
+                    
                   </div>
                 </div>
             </div>
         </section>
 
-        <section className='contactContainer'id='contact'>
-            <img className="line1" src={logoContact} alt="" />
+        <section className='contactContainer'id='contact'> {/* CONTACT*/}
+            <img className="line1" id='letsConnectLogo' src={logoContact} alt="" />
             <a className='line2' href = "mailto: l.beauloi@gmail.com">l.beauloi@gmail.com</a>
             <div className='line3'>
                 <div className='follow'>
@@ -135,6 +144,7 @@ const Home = () => {
                 </div>
             </div>
             <p className='line4'>Coded by <a href="https://www.linkedin.com/in/lucas-beauloi/" target='_blank'><strong>Lucas Beauloi</strong></a>, designed by <a href="http://laurakeerman.be/" target='_blank'><strong>Laura Keerman</strong></a></p>
+            <BackToTop/>
         </section>
       </div>
       </>
