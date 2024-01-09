@@ -43,7 +43,6 @@ const Home = () => {
           <div className="line5"><ScrollDownArrow/></div>
         </section>    
 
-
         <section className="container" id='projects' ref={slider}>
             <div class="panel">
               <div className='projectContainer'>
