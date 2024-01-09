@@ -53,7 +53,7 @@ const Home = () => {
 
                 <div className='projectdetails'>
                     <h2>The Collection</h2>
-                    <p className='description'>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>
+                    <p className='description'>My first project involves creating a collection of my favorite artists, where artist cards are dynamically generated using JavaScript. I implemented the project with a foundation in HTML and CSS, in addition to JavaScript. This collection highlights the concepts of responsiveness and DOM, ensuring a seamless and adaptive user experience. The integration of these principles allows for smooth navigation through the collection, providing a dynamic and interactive presentation of my favorite artists.</p>
                     <div className='langageTag'>
                         <p>html/css</p>
                         <p>js</p>
@@ -72,12 +72,12 @@ const Home = () => {
 
               <div className='projectdetails'>
                   <h2>Weather App</h2>
-                  <p className='description'>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>
+                  <p className='description'>I developed a weather application. To achieve this, I utilized an API to fetch weather data and another API to obtain visuals of the respective cities. This project not only showcases my proficiency in integrating APIs but also emphasizes the importance of data visualization in providing a comprehensive weather experience. By combining these elements, the application offers users both accurate weather information and a visually engaging representation of the chosen city.</p>
                   <div className='langageTag'>
                       <p>html/css</p>
                       <p>js</p>
                       <p>dom</p>
-                      <p>responsive</p>
+                      <p>api</p>
                   </div>
                   <a href="https://lbeauloi.github.io/Weather-app/" target="_blank" className='projectLink'>See the project</a>
               </div>
@@ -91,12 +91,10 @@ const Home = () => {
 
                   <div className='projectdetails'>
                       <h2>Sunnyside Agency</h2>
-                      <p className='description'>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>
+                      <p className='description'>This is a showcase website, undertaking the challenge of reproducing a pixel-perfect design from Figma. Utilizing HTML and SCSS, I implemented the concepts learned during my training. The objective was to craft a fictional website for a creative agency named 'Sunnyside Agency.' This exercise not only honed my skills in precision coding but also allowed me to bring a Figma design to life, showcasing my proficiency in front-end development and design implementation.</p>
                       <div className='langageTag'>
-                          <p>html/css</p>
-                          <p>js</p>
-                          <p>dom</p>
-                          <p>responsive</p>
+                          <p>html/scss</p>
+                          <p>pixel perfect</p>
                       </div>
                       <a href="https://lbeauloi.github.io/Sunnyside/" target="_blank" className='projectLink'>See the project</a>
                   </div>
@@ -110,14 +108,14 @@ const Home = () => {
 
                   <div className='projectdetails'>
                       <h2>Movie Browser</h2>
-                      <p className='description'>A collection of my favorite artists. The cards are dynamically generated in JavaScript. The concepts of DOM, basic HTML CSS JS and responsive design are used in this project.</p>
+                      <p className='description'>This was my first React project, and the first time using of Netlify for the final build. This is a clone of a streaming site. Leveraging the power of React, I implemented features such as React Router DOM for seamless navigation. To populate the site with content, I utilized an API to fetch data, including details like titles, genres, and release years. The project also involved the use of HTML and SCSS to structure and style the application. This venture into React showcases my progression in utilizing this powerful library to build dynamic and interactive web applications."</p>
                       <div className='langageTag'>
-                          <p>html/css</p>
-                          <p>js</p>
-                          <p>dom</p>
-                          <p>responsive</p>
+                          <p>html/scss</p>
+                          <p>react</p>
+                          <p>routing</p>
+                          <p>netlify</p>
                       </div>
-                      <a href="https://lbeauloi.github.io/The-Collection/" target="_blank" className='projectLink'>See the project</a>
+                      <a href="https://github.com/lbeauloi/Movie-Browser" target="_blank" className='projectLink'>See the project</a>
                   </div>
                 </div>
             </div>
