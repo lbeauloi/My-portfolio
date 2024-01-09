@@ -123,7 +123,7 @@ const Home = () => {
         </section>
 
         <section className='contactContainer'id='contact'>
-            <img className="line1" src="./assets/img/letsconnect.svg" alt="" />
+            <img className="line1" src="/assets/img/letsconnect.svg" alt="" />
             <a className='line2' href="">l.beauloi@gmail.com</a>
             <div className='line3'>
                 <p>Follow me here</p> <br />
