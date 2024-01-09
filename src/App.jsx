@@ -8,7 +8,7 @@ return (
   <>
   <Navbar/>
   <Home/>
-  <p className="mobile-message">Mobile version under construction</p>
+  <p className="mobile-message">Mobile and tablet versions are currently being modified, come back later!</p>
   </>
 )
 }

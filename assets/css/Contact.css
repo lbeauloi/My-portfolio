@@ -32,10 +32,15 @@
 .contactContainer .line3 {
   grid-area: line3;
 }
-.contactContainer .line3 p {
+.contactContainer .line3 .follow {
   font-size: 41px;
 }
-.contactContainer .line3 .btn1, .contactContainer .line3 .btn2 {
+.contactContainer .line3 .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactContainer .line3 .links .btn1, .contactContainer .line3 .links .btn2 {
   text-decoration: none;
   padding: 10px;
   background-color: #fff;
