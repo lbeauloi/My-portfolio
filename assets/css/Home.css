@@ -72,16 +72,16 @@
   height: 100%;
 }
 .container .panel .projectContainer .projectImg1 {
-  background-image: url("/assets/img/theCollection.jpg");
+  background-image: url("/assets/img/theCollection-min.jpg");
 }
 .container .panel .projectContainer .projectImg2 {
-  background-image: url("/assets/img/wheaterApp.jpg");
+  background-image: url("/assets/img/wheaterApp-min.jpg");
 }
 .container .panel .projectContainer .projectImg3 {
-  background-image: url("/assets/img/Sunnyside.jpg");
+  background-image: url("/assets/img/Sunnyside-min.jpg");
 }
 .container .panel .projectContainer .projectImg4 {
-  background-image: url("/assets/img/MovieBrowser.jpg");
+  background-image: url("/assets/img/MovieBrowser-min.jpg");
 }
 .container .panel .projectContainer .projectdetails {
   grid-area: details;
