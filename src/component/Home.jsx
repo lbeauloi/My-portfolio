@@ -37,14 +37,14 @@ const Home = () => {
         
         <section className="Home">
           <p className="line1" id="hello"><em>hello, i'm</em></p>
-          <h1 className="line2" id="LB"><img src="/assets/img/lucasbeauloi.svg"></img></h1>
+          <h1 className="line2" id="LB"><img srcset="/assets/img/lucasbeauloi.svg"></img></h1>
           <p className="line3">a junior front-end developer</p>
           <p className="line4">Currently undergoing front-end training at BeCode, I am eager to apply my skills and actively seeking a challenging internship opportunity. Let's build something remarkable together!</p>
           <div className="line5"><ScrollDownArrow/></div>
         </section>    
 
 
-        <section class="container" id='projects' ref={slider}>
+        <section className="container" id='projects' ref={slider}>
             <div class="panel">
               <div className='projectContainer'>
                 <div className='projectImg projectImg1'>
