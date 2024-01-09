@@ -6,6 +6,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect, useRef } from "react";
 import "/assets/css/Home.css";
 import '/assets/css/Contact.css';
+import logoHome from "/assets/img/lucasbeauloi.svg"
+import logoContact from "/assets/img/letsconnect.svg"
 
 gsap.registerPlugin(ScrollTrigger);
 const Home = () => {
@@ -37,7 +39,7 @@ const Home = () => {
         
         <section className="Home">
           <p className="line1" id="hello"><em>hello, i'm</em></p>
-          <div className='line2'><img src="/assets/img/lucasbeauloi.svg" alt="Lucas Beauloi" /></div>
+          <div className='line2'><img src={logoHome} alt="Lucas Beauloi" /></div>
           <p className="line3">a junior front-end developer</p>
           <p className="line4">Currently undergoing front-end training at BeCode, I am eager to apply my skills and actively seeking a challenging internship opportunity. Let's build something remarkable together!</p>
           <div className="line5"><ScrollDownArrow/></div>
@@ -122,7 +124,7 @@ const Home = () => {
         </section>
 
         <section className='contactContainer'id='contact'>
-            <img className="line1" src="/assets/img/letsconnect.svg" alt="" />
+            <img className="line1" src={logoContact} alt="" />
             <a className='line2' href = "mailto: l.beauloi@gmail.com">l.beauloi@gmail.com</a>
             <div className='line3'>
                 <div className='follow'>
