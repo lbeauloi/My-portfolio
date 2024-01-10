@@ -9,11 +9,16 @@
   align-items: baseline;
   text-transform: uppercase;
 }
+.navbar .navbar-list .left {
+  margin-left: 25px;
+}
+.navbar .navbar-list .right {
+  margin-right: 25px;
+}
 .navbar .navbar-list .navbar-item {
   float: left;
   padding: 14px 16px;
   text-decoration: none;
-  margin: 0px 20px;
 }
 .navbar .navbar-list .navbar-item a {
   color: inherit;
