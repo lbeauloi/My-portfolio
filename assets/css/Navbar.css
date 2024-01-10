@@ -13,6 +13,7 @@
   float: left;
   padding: 14px 16px;
   text-decoration: none;
+  margin: 0px 20px;
 }
 .navbar .navbar-list .navbar-item a {
   color: inherit;

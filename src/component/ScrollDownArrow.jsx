@@ -12,8 +12,9 @@ const ScrollDownArrow = () => {
   }, []);
 
   return (
-    <div ref={arrowRef} style={{ fontSize: '2em', display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-      scroll <br /> &#8595;
+    <div ref={arrowRef} style={{display: 'flex', justifyContent: 'center', alignItems:'center'}}>
+      <p style={{fontSize:'20px', fontWeight:300}}>scroll</p>
+      {/* <p style={{fontWeight:300}}>&#8595;</p> */}
     </div>
   );
 }
