@@ -50,11 +50,12 @@
 }
 .contactContainer .line4 {
   grid-area: line4;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: end;
   font-weight: 300;
+  font-size: 15px;
 }
 .contactContainer .line4 a {
   text-decoration: none;
