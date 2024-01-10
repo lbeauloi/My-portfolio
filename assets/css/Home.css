@@ -152,8 +152,9 @@
   display: flex;
   width: 50%;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
   position: relative;
 }
 .container .panel .projectContainer .projectdetails .langageTag::after {
