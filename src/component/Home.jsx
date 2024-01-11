@@ -37,7 +37,7 @@ const Home = () => {
       
       <div className="App" ref={component}>
 
-        <section className="Home"> {/* HOME */}
+        <section className="Home" id='home'> {/* HOME */}
           <p className="line1" id="hello"><em>hello, i'm</em></p>
           <div className='line2'><img src={logoHome} alt="Lucas Beauloi" /></div>
           <p className="line3">a junior front-end developer</p>

@@ -39,6 +39,7 @@
         display: flex;
         align-items: center;
         font-size: 20px;
+        line-height: 144%;
     }
     .line5{
         grid-area: 6 / 2 / 6 / 3;
@@ -154,6 +155,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    text-align: left;
                     width: 70%;
                     margin: 0px auto;
                     line-height: 144%;
@@ -189,6 +191,7 @@
         
                 .projectLink{
                     grid-area: line4;
+                    border: 1.5px solid black;
                     color: white;
                     display: flex;
                     justify-content: center;
@@ -201,6 +204,11 @@
                     padding: 20px 30px;
                     text-transform: uppercase;
                     margin: auto;
+                    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                      }
                 }
             }
     }

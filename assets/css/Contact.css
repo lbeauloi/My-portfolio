@@ -28,9 +28,15 @@
   margin: auto;
   padding: 20px 30px;
   border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.contactContainer .line2:hover {
+  background-color: white;
+  color: black;
 }
 .contactContainer .line3 {
   grid-area: line3;
+  padding-top: 40px;
 }
 .contactContainer .line3 .follow {
   font-size: 41px;
@@ -50,7 +56,7 @@
 }
 .contactContainer .line4 {
   grid-area: line4;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: end;
