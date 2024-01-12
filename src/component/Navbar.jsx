@@ -1,6 +1,6 @@
 import React from 'react';
 import '/assets/css/Navbar.css'
-import CV from '/assets/CV/Lucas-Beauloi_CV.pdf'
+import CV from '/assets/CV/CV_Lucas_Beauloi.pdf'
 
 const Navbar = () => {
   return (
