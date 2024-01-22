@@ -123,7 +123,7 @@ const Home = () => {
                           <p>routing</p>
                           <p>netlify</p>
                       </div>
-                      <a href="https://github.com/lbeauloi/Movie-Browser" target="_blank" className='projectLink'>See the project</a>
+                      <a href="https://tmdb-movie-browser.netlify.app/" target="_blank" className='projectLink'>See the project</a>
                     
                   </div>
                 </div>
