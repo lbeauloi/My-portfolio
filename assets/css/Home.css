@@ -48,6 +48,11 @@
   width: 68%;
 }
 
+.messageTemporaire {
+  color: red;
+  font-weight: bolder;
+}
+
 .container {
   width: 400vw;
   height: 100vh;

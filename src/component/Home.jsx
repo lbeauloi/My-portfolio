@@ -117,13 +117,15 @@ const Home = () => {
                   <div className='projectdetails'>
                       <h2>Movie Browser</h2>
                       <p className='description'>This was my first React project, and the first time using of Netlify for the final build. This is a clone of a streaming site. Leveraging the power of React, I implemented features such as React Router DOM for seamless navigation. To populate the site with content, I utilized an API to fetch data, including details like titles, genres, and release years. The project also involved the use of HTML and SCSS to structure and style the application. This venture into React showcases my progression in utilizing this powerful library to build dynamic and interactive web applications.</p>
+                      <p><span className='messageTemporaire'>*In the process of editing</span></p>
+                      
                       <div className='langageTag'>
                           <p>html/scss</p>
                           <p>react</p>
                           <p>routing</p>
                           <p>netlify</p>
                       </div>
-                      <a href="https://tmdb-movie-browser.netlify.app/" target="_blank" className='projectLink'>See the project</a>
+                      <a href="https://tmdb-movie-browser.netlify.app/" target="_blank" className='projectLink'>See the project *</a>
                     
                   </div>
                 </div>
