@@ -1,15 +1,17 @@
 import React from 'react';
 import '/assets/css/Navbar.css'
 import CV from '/assets/CV/CV_Lucas_Beauloi.pdf'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <ul className='navbar-list'>
         <div className='left'>
-          <li className='navbar-item'><a href="#home">About</a></li>
+          <li className='navbar-item'><Link to="/">Home</Link></li>
           <li className='navbar-item'><a href="#projects">Projects</a></li>
           <li className='navbar-item'><a href="#contact">Contact</a></li>
+          <li className='navbar-item'><Link to="/techtalks">Tech Talks</Link></li>
         </div>
 
         <div className='right'>

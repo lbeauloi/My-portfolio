@@ -1,0 +1,73 @@
+.TechTalkContainer{
+    padding-top: 150px;
+    color: black;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "top"
+        "middle"
+        "bottom";
+       
+    
+    .TechTitle{
+        grid-area: top;
+        color: black;
+        width: 50%;
+        margin: auto;
+        font-weight: 900;
+        font-size: 42px;
+        text-transform: uppercase;
+        
+    }
+    .TechDescription{
+        grid-area: middle;
+        width: 35%;
+        margin: auto;
+        color: black;
+        line-height: 144%;
+        padding: 25px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 60%;
+            border-bottom: 1px solid black;
+        }
+    }
+
+    .TechTalkDiv{
+        grid-area: bottom;
+        width: 70%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        .Tech1, .Tech2, .Tech3, .Tech4,.Tech5{
+            height: 300px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: blue;
+            transition:  0.3s ease-in-out;
+            a {
+                text-decoration: none;
+                margin-top: 140px;
+                display: none;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: darken(blue, 20%); 
+                a {
+                    display: block; 
+                }
+            }
+        }
+    }
+    
+}
