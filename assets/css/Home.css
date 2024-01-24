@@ -1,7 +1,7 @@
 .Home {
   overflow-x: hidden;
   background-color: #0B0B0B;
-  height: calc(100dvh - 56px);
+  height: calc(100dvh - 70px);
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
