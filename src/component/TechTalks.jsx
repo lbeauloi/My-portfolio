@@ -13,11 +13,11 @@ const TechTalks = () => {
       <div className='TechTalkDiv'>
             <a href={Tech1} without rel="noopener noreferrer" target='_blank'><div className='Tech1'>Open</div></a>
         
-            <a href={Tech2} target='_blank'><div className='Tech2'>Open</div></a>
+            <a href={Tech2} rel="noopener noreferrer" target='_blank'><div className='Tech2'>Open</div></a> {/*rel="noopener noreferrer" pour eviter de changer l'url vu que j'utilise react rooter dom ça merde sinon*/}
 
-            <a href={Tech3} target='_blank'><div className='Tech3'>Open</div></a>
+            <a href={Tech3} rel="noopener noreferrer" target='_blank'><div className='Tech3'>Open</div></a>
 
-            <a href={Tech4} target='_blank'><div className='Tech4'>Open</div></a>
+            <a href={Tech4} rel="noopener noreferrer" target='_blank'><div className='Tech4'>Open</div></a>
 
             <a href="" target='_blank'><div className='Tech5'>Open</div></a>
   
