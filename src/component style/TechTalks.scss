@@ -1,5 +1,5 @@
 .TechTalkContainer{
-    padding-top: 150px;
+    height: 90vh;
     color: black;
     margin: auto;
     display: grid;
@@ -40,29 +40,45 @@
 
     .TechTalkDiv{
         grid-area: bottom;
-        width: 70%;
+        width: 80%;
         height: 300px;
         margin: auto;
-        margin-top: 100px;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
         gap: 20px;
+        .Tech1{
+            background-image: url("/public/Tech_Images_Format.png");
+            
+        }
+        .Tech2{
+            background-image: url("/public/Tech_UX_UI.png");
+        }
+        .Tech3{
+            background-image: url("/public/Tech_Wordpress.png");
+        }
+        .Tech4{
+            background-image: url("/public/Tech_GSAP.png");
+        }
+        .Tech5{
+            background-image: url("/public/Tech_Not_Defined.png");
+        }
         .Tech1, .Tech2, .Tech3, .Tech4,.Tech5{
-            height: 300px;
+            height: 250px;
             width: 200px;
             border-radius: 20px;
-            background-color: blue;
+            background-size: cover;
+            background-repeat: no-repeat;
             transition:  0.3s ease-in-out;
             a {
                 text-decoration: none;
-                margin-top: 140px;
+                margin-top: 115px;
                 display: none;
             }
             &:hover {
                 cursor: pointer;
-                background-color: darken(blue, 20%); 
+                background-color: black; 
                 a {
                     display: block; 
                 }
