@@ -44,19 +44,19 @@
   gap: 20px;
 }
 .TechTalkContainer .TechTalkDiv .Tech1 {
-  background-image: url("/public/Tech_Images_Format.png");
+  background-image: url("/public/Tech_Images_Format.jpg");
 }
 .TechTalkContainer .TechTalkDiv .Tech2 {
-  background-image: url("/public/Tech_UX_UI.png");
+  background-image: url("/public/Tech_UX_UI.jpg");
 }
 .TechTalkContainer .TechTalkDiv .Tech3 {
-  background-image: url("/public/Tech_Wordpress.png");
+  background-image: url("/public/Tech_Wordpress.jpg");
 }
 .TechTalkContainer .TechTalkDiv .Tech4 {
   background-image: url("/public/Tech_GSAP.jpg");
 }
 .TechTalkContainer .TechTalkDiv .Tech5 {
-  background-image: url("/public/Tech_Not_Defined.png");
+  background-image: url("/public/Tech_Not_Defined.jpg");
 }
 .TechTalkContainer .TechTalkDiv .Tech1, .TechTalkContainer .TechTalkDiv .Tech2, .TechTalkContainer .TechTalkDiv .Tech3, .TechTalkContainer .TechTalkDiv .Tech4, .TechTalkContainer .TechTalkDiv .Tech5 {
   height: 250px;
@@ -65,16 +65,30 @@
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
+  position: relative;
 }
-.TechTalkContainer .TechTalkDiv .Tech1 a, .TechTalkContainer .TechTalkDiv .Tech2 a, .TechTalkContainer .TechTalkDiv .Tech3 a, .TechTalkContainer .TechTalkDiv .Tech4 a, .TechTalkContainer .TechTalkDiv .Tech5 a {
-  text-decoration: none;
-  margin-top: 115px;
+.TechTalkContainer .TechTalkDiv .Tech1 .descTech, .TechTalkContainer .TechTalkDiv .Tech2 .descTech, .TechTalkContainer .TechTalkDiv .Tech3 .descTech, .TechTalkContainer .TechTalkDiv .Tech4 .descTech, .TechTalkContainer .TechTalkDiv .Tech5 .descTech {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+.TechTalkContainer .TechTalkDiv .Tech1 .hoverText, .TechTalkContainer .TechTalkDiv .Tech2 .hoverText, .TechTalkContainer .TechTalkDiv .Tech3 .hoverText, .TechTalkContainer .TechTalkDiv .Tech4 .hoverText, .TechTalkContainer .TechTalkDiv .Tech5 .hoverText {
   display: none;
 }
 .TechTalkContainer .TechTalkDiv .Tech1:hover, .TechTalkContainer .TechTalkDiv .Tech2:hover, .TechTalkContainer .TechTalkDiv .Tech3:hover, .TechTalkContainer .TechTalkDiv .Tech4:hover, .TechTalkContainer .TechTalkDiv .Tech5:hover {
   cursor: pointer;
-  background-color: black;
+  scale: 1.03;
+  filter: brightness(0.5);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.TechTalkContainer .TechTalkDiv .Tech1:hover a, .TechTalkContainer .TechTalkDiv .Tech2:hover a, .TechTalkContainer .TechTalkDiv .Tech3:hover a, .TechTalkContainer .TechTalkDiv .Tech4:hover a, .TechTalkContainer .TechTalkDiv .Tech5:hover a {
+.TechTalkContainer .TechTalkDiv .Tech1:hover .hoverText, .TechTalkContainer .TechTalkDiv .Tech2:hover .hoverText, .TechTalkContainer .TechTalkDiv .Tech3:hover .hoverText, .TechTalkContainer .TechTalkDiv .Tech4:hover .hoverText, .TechTalkContainer .TechTalkDiv .Tech5:hover .hoverText {
   display: block;
+}
+.TechTalkContainer .TechTalkDiv .Tech1:hover .descTech, .TechTalkContainer .TechTalkDiv .Tech2:hover .descTech, .TechTalkContainer .TechTalkDiv .Tech3:hover .descTech, .TechTalkContainer .TechTalkDiv .Tech4:hover .descTech, .TechTalkContainer .TechTalkDiv .Tech5:hover .descTech {
+  display: none;
 }/*# sourceMappingURL=TechTalks.css.map */

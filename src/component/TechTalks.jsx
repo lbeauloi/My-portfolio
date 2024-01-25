@@ -11,16 +11,33 @@ const TechTalks = () => {
       <p className='TechDescription'>During my training at BeCode, I had the opportunity to present several "tech talks." The goal of these brief presentations, lasting about ten minutes each, is to promote awareness and encourage technological exploration. <br /> Here are the 5 tech talks that I have presented, happy reading!
       </p>
       <div className='TechTalkDiv'>
-            <a href={Tech1} without rel="noopener noreferrer" target='_blank'><div className='Tech1'>Open</div></a>
         
-            <a href={Tech2} rel="noopener noreferrer" target='_blank'><div className='Tech2'>Open</div></a> {/*rel="noopener noreferrer" pour eviter de changer l'url vu que j'utilise react rooter dom ça merde sinon*/}
+        <a className='Tech1'href={Tech1} without rel="noopener noreferrer" target='_blank'>
+          <p className='descTech'>images format</p>
+          <p className='hoverText'>Open</p>
+        </a>
 
-            <a href={Tech3} rel="noopener noreferrer" target='_blank'><div className='Tech3'>Open</div></a>
+        <a className='Tech2'href={Tech2} without rel="noopener noreferrer" target='_blank'>
+          <p className='descTech'>ui/ux design</p>
+          <p className='hoverText'>Open</p>
 
-            <a href={Tech4} rel="noopener noreferrer" target='_blank'><div className='Tech4'>Open</div></a>
+        </a>
+        <a className='Tech3'href={Tech3} without rel="noopener noreferrer" target='_blank'>
+          <p className='descTech'>wordpress</p>
+          <p className='hoverText'>Open</p>
 
-            <a href="" target='_blank'><div className='Tech5'>Open</div></a>
-  
+        </a>
+        <a className='Tech4'href={Tech4} without rel="noopener noreferrer" target='_blank'>
+          <p className='descTech'>gsap</p>
+          <p className='hoverText'>Open</p>
+
+        </a>
+        <a className='Tech5'href="" without rel="noopener noreferrer" target='_blank'>
+          <p className='descTech'>not defined</p>
+          <p className='hoverText'>Open</p>
+
+        </a>
+
       </div>
     </div>
   )

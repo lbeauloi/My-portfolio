@@ -49,20 +49,20 @@
         justify-content: space-between;
         gap: 20px;
         .Tech1{
-            background-image: url("/public/Tech_Images_Format.png");
+            background-image: url("/public/Tech_Images_Format.jpg");
             
         }
         .Tech2{
-            background-image: url("/public/Tech_UX_UI.png");
+            background-image: url("/public/Tech_UX_UI.jpg");
         }
         .Tech3{
-            background-image: url("/public/Tech_Wordpress.png");
+            background-image: url("/public/Tech_Wordpress.jpg");
         }
         .Tech4{
             background-image: url("/public/Tech_GSAP.jpg");
         }
         .Tech5{
-            background-image: url("/public/Tech_Not_Defined.png");
+            background-image: url("/public/Tech_Not_Defined.jpg");
         }
         .Tech1, .Tech2, .Tech3, .Tech4,.Tech5{
             height: 250px;
@@ -71,18 +71,36 @@
             background-size: cover;
             background-repeat: no-repeat;
             transition:  0.3s ease-in-out;
-            a {
-                text-decoration: none;
-                margin-top: 115px;
+            position: relative;
+            .descTech{
+                text-transform: uppercase;
+                font-weight: bold;
+                position: absolute;
+                bottom: 5px;
+                right: 15px;
+            }
+            
+            .hoverText{
                 display: none;
             }
             &:hover {
                 cursor: pointer;
-                background-color: black; 
-                a {
-                    display: block; 
+                scale: 1.03;
+                filter: brightness(0.5);                
+                text-decoration: none;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .hoverText{
+                    display: block;
+                }
+                .descTech{
+                    display: none;
                 }
             }
+            
+
+        
         }
     }
     
